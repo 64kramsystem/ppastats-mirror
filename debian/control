@@ -1,0 +1,16 @@
+Source: ppastats
+Section: utils
+Priority: optional
+Maintainer: Saverio Miroddi <saverio.pub2@gmail.com>
+Build-Depends: debhelper-compat (= 12), autotools-dev,pkg-config,libcurl-dev,libjson-c-dev
+Standards-Version: 4.4.1
+Homepage: https://wpitchoune.net/ppastats
+#Vcs-Browser: https://salsa.debian.org/debian/ppastats
+#Vcs-Git: https://salsa.debian.org/debian/ppastats.git
+
+Package: ppastats
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Command line tool which produces HTML report for viewing download statistics of an Ubuntu PPA
+ Command line tool which produces HTML report for viewing download statistics of an Ubuntu PPA
+
