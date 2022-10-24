@@ -6,7 +6,7 @@ I've prepared a PPA for the current Ubuntu LTS versions: https://launchpad.net/~
 
 ## Preparing a PPA via PPA Packaging tools
 
-Prepareing the PPA packages using [PPA Packaging tools](https://github.com/saveriomiroddi/ppa_packaging), is trivial:
+Preparing the PPA packages using [PPA Packaging tools](https://github.com/saveriomiroddi/ppa_packaging), is trivial:
 
 ```sh
 export PPA_PAK_VERSION='<fill>'
